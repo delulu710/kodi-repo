@@ -5,19 +5,19 @@
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository" name="delulu710 Repository">
-    <info compressed="false">https://delulu710.github.io/kodi-repo/addons.xml</info>
-    <checksum>https://delulu710.github.io/kodi-repo/addons.xml.md5</checksum>
-    <datadir zip="true">https://delulu710.github.io/kodi-repo/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/delulu710/kodi-repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/delulu710/kodi-repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/delulu710/kodi-repo/master/</datadir>
     <hashes>false</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">delulu710's Kodi Repository</summary>
-    <description lang="en_GB">delulu710's personal Kodi repository containing CocoScrapers.</description>
+    <description lang="en_GB">delulu710's personal Kodi repository containing DeLuLuScraper.</description>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
   </extension>
 </addon>
-<addon id="script.module.cocoscrapers" name="CocoScrapers Module" version="1.0.34" provider-name="CocoJoe">
+<addon id="script.module.cocoscrapers" name="DeLuLuScraper Module" version="1.0.34" provider-name="delulu710">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -29,7 +29,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en">CocoScrapers Module</summary>
+		<summary lang="en">DeLuLuScraper Module</summary>
 		<description>A module that can be used to provide site scrapers.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>

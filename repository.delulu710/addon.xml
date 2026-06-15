@@ -4,14 +4,14 @@
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository" name="delulu710 Repository">
-    <info compressed="false">https://delulu710.github.io/kodi-repo/addons.xml</info>
-    <checksum>https://delulu710.github.io/kodi-repo/addons.xml.md5</checksum>
-    <datadir zip="true">https://delulu710.github.io/kodi-repo/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/delulu710/kodi-repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/delulu710/kodi-repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/delulu710/kodi-repo/master/</datadir>
     <hashes>false</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">delulu710's Kodi Repository</summary>
-    <description lang="en_GB">delulu710's personal Kodi repository containing CocoScrapers.</description>
+    <description lang="en_GB">delulu710's personal Kodi repository containing DeLuLuScraper.</description>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
   </extension>
