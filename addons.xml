@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="repository.delulu710" name="delulu710 Repository" version="1.0.0" provider-name="delulu710">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
   <extension point="xbmc.addon.repository" name="delulu710 Repository">
     <info compressed="false">https://delulu710.github.io/kodi-repo/addons.xml</info>
     <checksum>https://delulu710.github.io/kodi-repo/addons.xml.md5</checksum>
@@ -8,8 +11,8 @@
     <hashes>false</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>delulu710's Kodi Repository</summary>
-    <description>delulu710's personal Kodi repository containing CocoScrapers.</description>
+    <summary lang="en_GB">delulu710's Kodi Repository</summary>
+    <description lang="en_GB">delulu710's personal Kodi repository containing CocoScrapers.</description>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
   </extension>
