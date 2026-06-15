@@ -4,10 +4,12 @@
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository" name="delulu710 Repository">
-    <info compressed="false">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml</info>
-    <checksum>https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml.md5</checksum>
-    <datadir zip="true">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/</datadir>
-    <hashes>false</hashes>
+    <dir>
+      <info compressed="false">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml</info>
+      <checksum>https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml.md5</checksum>
+      <datadir zip="true">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/</datadir>
+      <hashes>false</hashes>
+    </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">delulu710's Kodi Repository</summary>
