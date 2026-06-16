@@ -1,4 +1,4 @@
-<addon id="script.module.cocoscrapers" name="DeLuLuScraper Module" version="1.0.34" provider-name="delulu710">
+<addon id="script.module.cocoscrapers" name="DeLuLuScraper Module" version="1.0.35" provider-name="delulu710">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
