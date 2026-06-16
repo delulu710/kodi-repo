@@ -5,9 +5,9 @@
   </requires>
   <extension point="xbmc.addon.repository" name="delulu710 Repository">
     <dir>
-      <info compressed="false">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml</info>
-      <checksum>https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/addons.xml.md5</checksum>
-      <datadir zip="true">https://cdn.jsdelivr.net/gh/delulu710/kodi-repo@master/</datadir>
+      <info compressed="false">https://delulu710.github.io/kodi-repo/addons.xml</info>
+      <checksum>https://delulu710.github.io/kodi-repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://delulu710.github.io/kodi-repo/</datadir>
       <hashes>false</hashes>
     </dir>
   </extension>
